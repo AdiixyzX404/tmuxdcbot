@@ -19,7 +19,7 @@ commands.forEach((command) => {
 });
 var figlet = require('figlet');
  
-figlet.text("fdciabdul!", {
+figlet.text("AdyyBot", {
   font: 'Ghost',
   horizontalLayout: 'default',
   verticalLayout: true,
@@ -37,12 +37,12 @@ client.on("ready", () => {
   console.log(clc.green(`
   Ready to start ! ${client.user.tag}
 
-  dont forget to subscribe fdciabdul channel :)
+  dont forget to subscribe Adyy channel :)
   `));
   client.user.setPresence({
     activity: {
-      name: `*help | ${client.guilds.cache.size} servers`,
-      type: "LISTENING",
+      name: `Online! | Prefix : . | Servers : ${client.guilds.cache.size}`,
+      type: "PLAYING",
     },
     status: "online",
   });
@@ -107,4 +107,4 @@ client.on("voiceStateUpdate", (oldState, newState) => {
   queue = null;
 });
 
-client.login(config.TOKEN);
+client.login(config.token);
