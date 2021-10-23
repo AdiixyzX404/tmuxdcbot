@@ -4,27 +4,38 @@ module.exports = {
   run(message, args, client) {
     let embed = {
       color: 0x53bc8c,
-      title: `Welcome in the help section`,
+      title: `🌹「ADYYBOTZ」
+🔖 _Simple Discord Bot_`,
       fields: [
         {
-          name: "👮‍♂️ Prefix",
-          value: "Prefix for the bot is *. For now you can't change it.",
+          name: "🌹 _INFO BOT_",
+          value: "🔖 _Creator : Adii\n🔖 Prefix : .\n🔖 Language : JavaScript\n🔖 Framework : Nodejs\n🔖 Module : Discord.JS\n🔖 Run : Repl.It_",
           inline: false,
         },
         {
-          name: "👏 Command usage:",
-          value: `So you are wondering how to use commands on ${message.guild.name}?\nIt's very simple. \`*play\``,
+          name: "🌹 _COMMANDS_",
+          value: `_🔖 .play
+🔖 .search
+🔖 .shuffle
+🔖 .skip
+🔖 .nowplaying
+🔖 .move
+🔖 .loop
+🔖 .disconnect
+🔖 .filters
+🔖 .forward
+🔖 .remove_`,
           inline: false,
         },
         {
-          name: "👀 List of available commands",
+          name: "🌹 _Source Code_",
           value:
-            "play, search, shuffle, skip, nowplaying, move, loop, disconnect, filters, forward, remove",
+            "_https://github.com/_",
           inline: false,
         },
         {
-          name: "🤫 Coming soon",
-          value: "Idk, you can tell me on DM: Linguin#9999",
+          name: "_Thanks To_",
+          value: "Discord.JS\nRepl.It\nFdciabdul\nAdii",
           inline: false,
         },
       ],
