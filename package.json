@@ -9,7 +9,7 @@
   "author": "imLinguin",
   "license": "ISC",
   "dependencies": {
-    "@discordjs/opus": "^0.3.3",
+    "@discordjs/opus": "^0.6.0",
     "ascii-art": "^2.7.0",
     "cli-color": "^2.0.0",
     "discord-ytdl-core": "^5.0.0",
@@ -20,7 +20,7 @@
     "soundcloud-scraper": "^4.0.1",
     "spotify-url-info": "^2.2.0",
     "youtube-sr": "^1.0.7",
-    "ytdl-core": "^4.2.1",
+    "ytdl-core": "^4.9.1",
     "ytpl": "^2.0.3"
   }
 }
